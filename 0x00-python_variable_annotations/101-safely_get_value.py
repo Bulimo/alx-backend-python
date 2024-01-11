@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """ Module 101-safely_get_value.py """
 
-from typing import TypeVar, Mapping, Any, Union
+from typing import TypeVar, Mapping, Any, Optional, Union
 
 T = TypeVar('T')
 
 
-def safely_get_value(dct: Mapping[Any, T], key: Any, default:
+def safely_get_value(dct: Mapping, key: Any, default:
                      Union[T, None]) -> Union[Any, T]:
     """
      Safely retrieves value associated with the specified key from a dict.
