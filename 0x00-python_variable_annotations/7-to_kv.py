@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Module 7-to_kv """
+""" Module 7-to_kv that defines function to_kv """
 from typing import Union, Tuple
 # from math import pow
 
