@@ -13,7 +13,7 @@ def to_kv(k: int, v: Union[int, float]) -> Tuple[str, float]:
       - v(int|float): 2nd argument, can be an int or a float
 
     Returns:
-      - (Tuple): A tuple of format(k: v) 
+      - (Tuple): A tuple of format(k: v)
     """
     val: float = pow(v, 2)
     return (str(k), val)
