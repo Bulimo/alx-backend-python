@@ -4,7 +4,7 @@ from typing import Union, Tuple
 # from math import pow
 
 
-def to_kv(k: int, v: Union[int, float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Creates a tuple from the passed arguments
 
