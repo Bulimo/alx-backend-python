@@ -19,7 +19,7 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     Returns:
       -(list[float]): list of all delays in ascending order
     """
-    # create a list of n tasks using wait_random
+    # create a list of n tasks using task_wait_random
     tasks = [task_wait_random(max_delay) for _ in range(n)]
 
     # use asyncio.gather to run the tasks concurrently and collect the results
